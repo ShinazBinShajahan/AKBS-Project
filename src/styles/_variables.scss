@@ -1,0 +1,10 @@
+$primary-color:#cbefc2;
+$secondary-color:#005d68;
+$text-color:#212121;
+$text-color-light:#dedede;
+$red:rgb(120, 22, 22);
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import 'animate.css';
+.animate__fadeIn{
+    --animate-duration: 3s;
+}

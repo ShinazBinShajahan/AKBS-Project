@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import 'animate.css';
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import 'animate.css';
+@import './about.css';
+.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
+.homepage {
+  min-height: 100vh;
+  background-color: #cbefc2;
+  padding: 20px 0 0 0;
+  position: relative;
+}
+.homepage .cloud {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  height: auto;
+  margin: 10px auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212121;
+}
+.homepage .cloud img {
+  height: 200px;
+}
+.homepage .cloud .cloudspeech1 {
+  position: relative;
+}
+.homepage .cloud .cloudspeech1 .cloudimage1 {
+  width: 300px;
+  margin-right: 125px;
+}
+.homepage .cloud .cloudspeech1 h3 {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  width: 200px;
+  font-family: "ABeeZee", Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+.homepage .cloud .cloudspeech2 {
+  position: relative;
+}
+.homepage .cloud .cloudspeech2 .cloudimage2 {
+  width: 300px;
+  margin-left: 125px;
+}
+.homepage .cloud .cloudspeech2 p {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  width: 250px;
+  font-family: "ABeeZee", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.homepage .cloud .cloudspeech2 p span {
+  transform-origin: 0 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(-90deg);
+}
+.homepage .home-footer {
+  position: absolute;
+  min-height: 20vh;
+  max-height: 20vh;
+  width: 100%;
+  bottom: 0;
+  background-color: #005d68;
+  border-top-right-radius: 90%;
+  border-top-left-radius: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage .home-footer img {
+  height: 300px;
+  position: absolute;
+  bottom: 50px;
+  filter: drop-shadow(0px 15px 20px);
+}
+
+.home-banner {
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005d68;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  height: 10vh;
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 0;
+  margin: 0px auto 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .nav-image {
+  height: 80px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .nav-image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+.navbar .nav-image img:hover {
+  filter: drop-shadow(0 0 10px #005d68);
+}
+.navbar .nav-links {
+  vertical-align: middle;
+}
+.navbar .nav-links a {
+  text-decoration: none;
+  margin: 5px;
+  color: #212121;
+  letter-spacing: 3px;
+  margin: 0 15px;
+  display: inline-block;
+  position: relative;
+}
+.navbar .nav-links a:hover {
+  transform: translateY(-3px);
+}
+
+.join-us {
+  padding: 8px 15px;
+  background-color: #febb3f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
