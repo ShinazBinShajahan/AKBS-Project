@@ -1,14 +1,17 @@
 import './styles/main.css';
 import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
+import InfoPage from './components/InfoPage';
+import HistoryPage from './components/HistoryPage';
+import FooterPage from './components/FooterPage';
 
 
 function App() {
   return (
     <>
       <HomePage />
-      <AboutPage />
-      <HomePage />
+      <InfoPage />
+      <HistoryPage />
+      <FooterPage />
     </>
   );
 }
