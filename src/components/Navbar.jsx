@@ -18,6 +18,7 @@ function Navbar(){
             <a className='navigations-links' href="#history"><FontAwesomeIcon icon={faHourglassEnd} /> History </a>
             <a className='navigations-links' href="#"><FontAwesomeIcon icon={faVideo} /> Videos </a>
             <a className='navigations-links' href="#"><FontAwesomeIcon icon={faCalendarCheck} /> Events </a>
+            <a className='navigations-links' href="#"><FontAwesomeIcon icon={faCalendarCheck} /> More </a>
           </div>
           <a href="#" className="join-us" data-aos="fade-in">Join Us</a>
         </div>
